@@ -1,8 +1,8 @@
  :confused: Parts I don't understand 
-1) 
+1) Sheel Navigation (https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/shell/navigation)
 
  :eyes: parts I need to look at 
-
-
-
- :brain: Parts I totally understand 
+1) SQLite -> easy to use and understand but I need to look singleton system (https://en.wikipedia.org/wiki/Singleton_pattern -TR https://medium.com/@SevgiAlkan/singleton-pattern-nedir-1c2d7d09a3c)
+2) System.Environment (cs.microsoft.com/tr-tr/dotnet/api/system.environment?view=net-6.0)
+3) CollectionView vs ListView (https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/collectionview/introduction)
+-Looks like CollectionView more flexible, and performant alternative to ListView
