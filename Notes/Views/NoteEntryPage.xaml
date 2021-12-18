@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.Views.NoteEntryPage"    Title="Note Entry">
-    <ContentPage.Resources> 
-        <Style TargetType="{x:Type Editor}">
-            <Setter Property="BackgroundColor"
-                    Value="{StaticResource AppBackgroundColor}" />
-        </Style>
-    </ContentPage.Resources>
+             x:Class="Notes.Views.NoteEntryPage">
     <ContentPage.Content>
-
-        <StackLayout Margin="{StaticResource PageMargin}">
+        <StackLayout Margin="20">
             <Editor Placeholder="Enter your note"
                 Text="{Binding Text}"
                 HeightRequest="100" />
+
             <Grid ColumnDefinitions="*,*">
                 <Button Text="Save"
                     Clicked="OnSaveButtonClicked" />
